@@ -1,0 +1,30 @@
+{
+  "name": "mongo-app",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/patelabhishek0501/Demo_CI#readme",
+  "bugs": {
+    "url": "https://github.com/patelabhishek0501/Demo_CI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelabhishek0501/Demo_CI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
